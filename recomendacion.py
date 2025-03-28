@@ -140,7 +140,7 @@ def buscar_genero(lista_libros):
             print("-"*50)
     else:
         print(f"No se encontraron libros del género {genero}")
-    
+    pausa()
 #----------------------------------------------------------------------------------------
 def recomendar_libro(lista_libros):
     """
@@ -160,7 +160,7 @@ def recomendar_libro(lista_libros):
         print("-"*50)
     else:
         print(f"No se encontraron libros del género {genero}")
-    
+    pausa()
 #----------------------------------------------------------------------------------------
 def menu():
     print("1. Agregar un libro ")
